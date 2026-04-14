@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <nav className="navbar"> {/* Elemento de navegação com classe "navbar" para estilização */}
         <div className="container"> {/* Container para centralizar o conteúdo da barra de navegação */}
-            <a href="#" className="logo">BiaTrack</a> {/* Logo da plataforma, com link para a página inicial e classe "logo" para estilização */}
+            <a href="#" className="logo">LipexTrack</a> {/* Logo da plataforma, com link para a página inicial e classe "logo" para estilização */}
 
             <ul className="list-menu"> {/* Lista de itens de menu, com classe "list-menu" para estilização */}
                 <li><a className="link" href="#sobre">Sobre</a></li>

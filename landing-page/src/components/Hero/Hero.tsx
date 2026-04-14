@@ -10,7 +10,7 @@ import './Hero.css'; // Importa o arquivo de estilos específico para a seção 
 function Hero() {
     return (
         <section className="hero"> {/* Seção principal da landing page, com classe "hero" para estilização */}
-            <div className="container"> {/* Container para centralizar o conteúdo da seção hero */}
+            <div className="container-hero"> {/* Container para centralizar o conteúdo da seção hero */}
                 <span className="tagHero">Plataforma de aprendizado do futuro</span> {/* Tagline da plataforma, destacando sua proposta inovadora para o aprendizado */}
 
                 <h1 className="titleHero">Gestão de aprendizado inteligente para <span>escolas técnicas</span></h1> {/* Título principal da seção, destacando a proposta da plataforma para escolas técnicas */}

@@ -3,8 +3,17 @@
     margin: 0 auto;
     padding: 40px 0;                     
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
 
-.hero .container {
+}
+
+.hero .container-hero {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -20,6 +29,7 @@
     font-weight: 700;
     padding: 5px 20px;
     border-radius: 18px;
+    align-self: center;
 }
 
 .titleHero {
@@ -43,6 +53,7 @@
 .buttonsHero {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 
 .statsHero {
