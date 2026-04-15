@@ -3,6 +3,8 @@ import Hero from './components/Hero/Hero' // Importa o componente de seção pri
 import Navbar from './components/Navbar/Navbar' // Importa o componente de barra de navegação fixa no topo da página, com logo, links de navegação e botões de ação para login e cadastro
 import Sobre from './components/Sobre/Sobre'
 
+import Funcionalidades from './components/Funcionalidades/Funcionalidades'
+
 // Componente principal da aplicação, que renderiza a barra de navegação e a seção principal da landing page, garantindo que ambos os componentes sejam exibidos na página inicial.
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
       <Navbar /> {/* Barra de navegação fixa no topo da página, com logo, links de navegação e botões de ação para login e cadastro */}
       <Hero /> {/* Seção principal da landing page, com titulo, descrição e chamada para ação */} 
       <Sobre/>
+      <Funcionalidades/>
     </>
   )
 }

@@ -19,13 +19,53 @@
 .coluna1 {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     width: 50%;
+}
+
+.coluna1 h2 {
+    font-size: 3rem;
+    color :var(--black-color);
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.tagSobre {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 2.4px;
 }
 
 .coluna2 {
     background-color: var(--white-color);
     display: flex;
     flex-direction: column;
+    gap: 32px;
     justify-content: center;
     width: 50%;
+    padding: 40px;
+}
+
+.coluna2 h3{
+    color: var(--black-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.item-pilar {
+    display: flex;
+    gap: 16px;
+}
+
+.title-pilar{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 24px;
+    color: var(--black-color);
+}
+
+.description-pilar {
+    font-size: 0.875rem;
 }
