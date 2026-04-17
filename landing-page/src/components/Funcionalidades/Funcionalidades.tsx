@@ -1,5 +1,5 @@
 import { funcionalidades } from "../../data/funcionalidades";
-import CardFuncionalidades from "./components/cards";
+import CardFuncionalidades from "./components/Cards";
 import './Funcionalidades.css';
 
 export default function Funcionalidades() {

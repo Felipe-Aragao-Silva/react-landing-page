@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar' // Importa o componente de barra
 import Sobre from './components/Sobre/Sobre'
 
 import Funcionalidades from './components/Funcionalidades/Funcionalidades'
+import WhoWeAre from './components/WhoWeAre/WhoWeAre'
 
 // Componente principal da aplicação, que renderiza a barra de navegação e a seção principal da landing page, garantindo que ambos os componentes sejam exibidos na página inicial.
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero /> {/* Seção principal da landing page, com titulo, descrição e chamada para ação */} 
       <Sobre/>
       <Funcionalidades/>
+      <WhoWeAre/>
     </>
   )
 }
